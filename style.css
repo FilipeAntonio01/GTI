@@ -62,6 +62,19 @@ body {
 	transition: opacity 0.8s ease-in 0.9s;
 }
 
+.page-title {
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  z-index: 10;
+}
+
 @media (max-width:  480px) {
 	.container {
 		width: 100vw;
